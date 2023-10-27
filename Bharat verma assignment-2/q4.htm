@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+    <style>
+        /* Define the initial text color for the div */
+        .special-div {
+            text-align: center;
+            color: black;
+            transition: color 0.3s;
+            /* Add a smooth color transition effect */
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+        /* Define styles for the image */
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            /* Set the width of the image as needed */
+        }
+
+        /* Apply the text color change when hovering over the image */
+        img:hover+.special-div {
+            color: red;
+            /* Change the text color to red when the image is hovered */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/cat.jpeg" alt="Image">
+    <div class="special-div">My Special Div</div>
+</body>
+
+</html>
